@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- =======Иконки для контактных данных======== -->
+    <!-- https://www.youtube.com/watch?v=7cmmoMw9oxE -->
+    <link rel="stylesheet" href="ttps://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>CV</title>
+</head>
+
+<body class="body-bg">
+    <div class="container mb-5">
+        <div class="row cv">
+            <!-- =================================== -->
+            <!--==== Левая часть сайта - колонка === -->
+            <!-- =================================== -->
+            <div class="col-lg-3 col-md-5 cv-left">
+                <div class="row">
+                    <!--==== Блок-фото === -->
+                    <div class="photo-block col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                        <img src="" id="my-photo" alt="my photo" class="img-thumbnail rounded-circle mt-3 mb-3">
+                        <ul class="contacts-block text-left"></ul>
+                        <div class="address"></div>
+                    </div>
+                    <!--==== Блок-Skills === -->
+                    <div class="col-lg-12 col-md-12 col-sm-6 skill">
+                        <hr class="bg-white d-sm-none d-md-block">
+                        <section class="mt-3">
+                            <h2>Hard skills</h2>
+                            <ul class="skills-list"> </ul>
+                        </section>
+                        <section class="mt-3">
+                            <h2>Soft skills</h2>
+                            <ul class="skills-list2"> </ul>
+                        </section>
+                    </div>
+                    <!--==== Блок-Education === -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 Education">
+                        <hr class="bg-white d-none d-sm-block d-md-none d-lg-none">
+                        <section>
+                            <h2>Education</h2>
+                            <ul class="education-list"></ul>
+                        </section>
+                    </div>
+                    <!--==== Блок-Achievements === -->
+                    <!-- <div class="col-lg-12 Achievements">
+                        <section>
+                            <h2>Achievements</h2>
+                            <ul class="achievements-list"></ul>
+                        </section>
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- ============================ -->
+            <!--==== Правое поле -колонка === -->
+            <!-- ============================ -->
+            <div class="col-lg-9 col-md-7 cv-right">
+                <article>
+                    <header>
+                        <h1 id="my-name" class="text-center cv-header mt-4 mb-4"> </h1>
+                        <h2 id="job-title" class="job-title text-center lines color-grey mb-4"></h2>
+                    </header>
+                    <h3 class="mb-3 profile color-grey">Цель / Objective</h3>
+                    <p class="mb-5 profile-data"></p>
+                    <h3 class="mb-3 profile color-grey">Краткая выдержка / Summary</h3>
+                    <p class="mb-5 summary"></p>
+                    <h3 class="mb-3 experience color-grey">Опыт / Experience</h3>
+                    <div class="experience-list"></div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/experience.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
