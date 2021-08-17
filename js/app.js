@@ -25,9 +25,10 @@ document.querySelector('.experience-list').innerHTML = expirienceData;
  */
 document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">phone</span> <a href="tel:${data.phone}">${data.phone_1} </a></li>`
 document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">email</span> <a href="mailto:${data.email_1}">${data.email_1}</a></li>`
-document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">email</span> <a href="mailto:${data.email_2}">${data.email_2}</a></li>`
-document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">phone</span> <a href="callto:${data.skype}">${data.skype}</a></li>`
-document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">link</span> <a href="${data.linkedin}">${data.linkedin}</a></li>`
+// document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">email</span> <a href="mailto:${data.email_2}">${data.email_2}</a></li>`
+// document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">phone</span> <a href="callto:${data.skype}">${data.skype}</a></li>`
+// document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">link</span> <a href="${data.linkedin}">${data.linkedin}</a></li>`
+document.querySelector('.age').innerHTML = `<p>Возраст -  ${data.age}</p>`;
 document.querySelector('.address').innerHTML = `<p>${data.address}</p>`;
 document.querySelector('#my-photo').src = data.photo;
 
@@ -58,11 +59,3 @@ data.education.forEach(item => {
 });
 document.querySelector('.education-list').innerHTML = educationData;
 
-/**
- * Achievements
- */
-// let achievementsData = '';
-// data.achievements.forEach(item => {
-//     achievementsData += `<li>${item},</li>`;
-// });
-// document.querySelector('.achievements-list').innerHTML = achievementsData;
