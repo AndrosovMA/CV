@@ -4,19 +4,19 @@ const data = {
     "job_title": "Frontend Developer",
     "photo": "images/cv.jpg",
     "phone": "+79142585682",
-    "phone_1": "+7(914)258-5682",
+    "phone_1": "+7 (914) 258-5682",
     "email_1": "AndrosovMA@bk.ru",
     "linkedin": "https://github.com/AndrosovMA",
     "skype": "skype_number",
-    "age": "34 года",
-    "address": "г.Санкт-Петербург",
+    "age": "Возраст 34 года",
+    "address": "г. Санкт-Петербург",
     "hard_skills": [
         "HTML и CSS",
         "Препроцессоры CSS (Sass)",
         "JavaScript",
         "ООП в JS",
         "Bootstrap",
-        "менеджер задач Gulp"
+        "Менеджер задач Gulp"
     ],
     "soft_skills": [
         "Английский - А2 (Pre-Intermediate)",
@@ -27,9 +27,6 @@ const data = {
     "education": [
         ["2004-2009", "ФГАОУ ВО Северо-Восточный федеральный университет имени М.К. Аммосова г.Якутск", "Специальность: Обогащение полезных ископаемых", "Квалификация: Горный инженер"],
         ["2009-2013", "Московский институт профессиональных инноваций", "Специальность: Финансы и кредит", "Квалификация: Экономист"],
-    ],
-    "achievements": [
-        "Marketer of the Year Academic Scholorship Deans List: 2006-2007, National Merit Scholarship Corporation",
     ],
     "profile": "Начать карьеру junior JavaScript developer и за 3 года дорасти до TeamLeader",
     "summary": "Опыт web-разработки (обучения) около года. Имею хорошие аналитические способности. Легко обучаюсь и работаю в коллективе. "

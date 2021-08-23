@@ -23,14 +23,13 @@ document.querySelector('.experience-list').innerHTML = expirienceData;
 /**
  * contact data
  */
-document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">phone</span> <a href="tel:${data.phone}">${data.phone_1} </a></li>`
-document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">email</span> <a href="mailto:${data.email_1}">${data.email_1}</a></li>`
-// document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">email</span> <a href="mailto:${data.email_2}">${data.email_2}</a></li>`
-// document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">phone</span> <a href="callto:${data.skype}">${data.skype}</a></li>`
-document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons"><span class="material-icons-outlined">account_circle</span></span> <a href="${data.linkedin}">Profile GitHub</a></li>`
-document.querySelector('.age').innerHTML = `<p>Возраст -  ${data.age}</p>`;
-document.querySelector('.address').innerHTML = `<p>${data.address}</p>`;
 document.querySelector('#my-photo').src = data.photo;
+
+document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">person</span> ${data.age}</li>`;
+document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">phone</span> <a href="tel:${data.phone}">${data.phone_1} </a></li>`;
+document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">email</span> <a href="mailto:${data.email_1}">${data.email_1}</a></li>`;
+document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons"><span class="material-icons-outlined">account_circle</span></span> <a href="${data.linkedin}">Profile GitHub</a></li>`;
+document.querySelector('.contacts-block').innerHTML += `<li><span class="material-icons">location_on</span> ${data.address}</li>`;
 
 /**
  * hard skills
